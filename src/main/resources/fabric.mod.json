@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "froglegs",
+  "version": "1.0.0",
+  "name": "Frog Legs",
+  "authors": [
+    "purejosh, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.purejosh.froglegs.FroglegsMod"
+    ],
+    "client": [
+      "net.purejosh.froglegs.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  }
+}

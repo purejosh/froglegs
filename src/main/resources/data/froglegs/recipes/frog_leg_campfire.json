@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "experience": 0,
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "froglegs:frog_leg"
+  },
+  "result": "froglegs:cooked_frog_leg"
+}

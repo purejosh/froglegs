@@ -1,0 +1,20 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "xpReward": 0.35,
+    "cookingTime": 100,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "CUSTOM:FrogLeg"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:CookedFrogLeg"
+    },
+    "name": "frog_leg_smoker",
+    "namespace": "mod"
+  }
+}
