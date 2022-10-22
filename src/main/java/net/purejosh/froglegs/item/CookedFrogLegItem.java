@@ -14,7 +14,7 @@ import net.minecraft.world.entity.LivingEntity;
 public class CookedFrogLegItem extends Item {
 	public CookedFrogLegItem() {
 		super(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(64).rarity(Rarity.COMMON)
-				.food((new FoodProperties.Builder()).nutrition(5).saturationMod(6f)
+				.food((new FoodProperties.Builder()).nutrition(5).saturationMod(0.6f)
 
 						.meat().build()));
 	}
