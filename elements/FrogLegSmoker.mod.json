@@ -1,20 +1,20 @@
 {
-  "_fv": 33,
+  "_fv": 34,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Smoking",
-    "xpReward": 0.35,
-    "cookingTime": 100,
+    "recipeType": "Campfire cooking",
+    "xpReward": 0.0,
+    "cookingTime": 600,
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
-    "smokingInputStack": {
+    "campfireCookingInputStack": {
       "value": "CUSTOM:FrogLeg"
     },
-    "smokingReturnStack": {
+    "campfireCookingReturnStack": {
       "value": "CUSTOM:CookedFrogLeg"
     },
-    "name": "frog_leg_smoker",
+    "name": "frog_leg_campfire",
     "namespace": "mod"
   }
 }

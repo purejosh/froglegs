@@ -19,6 +19,6 @@ public class CookedFrogLegPlayerFinishesUsingItemProcedure {
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.JUMP, 200, 2, (false), (false)));
+			_entity.addEffect(new MobEffectInstance(MobEffects.JUMP, 400, 1, (false), (false)));
 	}
 }

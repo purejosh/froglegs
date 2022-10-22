@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "froglegs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "name": "Frog Legs",
   "description": "A very small, simple mod that adds a protein drop from frogs, including all supporting vanilla mechanics for meat.  ",
   "authors": [

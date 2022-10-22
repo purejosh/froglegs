@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="Custom license"
+
+[[mods]]
+modId="froglegs"
+version="1.0.0"
+displayName="Frog Legs"
+credits="Made by purejosh"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/frog-legs-fabric-forge"
+logoFile="logo.png"
+authors="purejosh"
+description='''
+A very small, simple mod that adds a protein drop from frogs, including all supporting vanilla mechanics for meat.  
+'''
+
+[[dependencies.froglegs]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+
