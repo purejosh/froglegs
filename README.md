@@ -4,7 +4,7 @@ A very small, simple mod that adds a protein drop from frogs, including all supp
 
 ## Download
 
-Get the latest download for your mod loader at [CurseForge](https://www.curseforge.com/minecraft/mc-mods/frog-legs-fabric-forge).
+Get the latest download for your mod loader at [CurseForge](https://www.curseforge.com/minecraft/mc-mods/frog-legs-fabric-forge) or [Modrinth](https://modrinth.com/mod/frog-legs).
 
 ## Issues or Suggestions
 
