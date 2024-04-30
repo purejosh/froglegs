@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "adv_give_pearlescent_froglight_recipes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pearlescent_froglight"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "froglegs:pearlescent_froglight_brick_slab_craft",
+      "froglegs:pearlescent_froglight_brick_stairs_craft",
+      "froglegs:pearlescent_froglight_bricks_craft",
+      "froglegs:pearlescent_froglight_rod_craft",
+      "froglegs:pearlescent_froglight_slab_craft",
+      "froglegs:pearlescent_froglight_stairs_craft",
+      "froglegs:smooth_pearlescent_froglight_slab_craft",
+      "froglegs:smooth_pearlescent_froglight_smelt"
+    ]
+  }
+}

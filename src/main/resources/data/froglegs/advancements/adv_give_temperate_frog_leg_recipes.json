@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "adv_give_temperate_frog_leg_recipes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "froglegs:temperate_frog_leg"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "froglegs:temperate_frog_leg_smelt",
+      "froglegs:temperate_frog_leg_smoke",
+      "froglegs:temperate_frog_leg_campfire",
+      "froglegs:temperate_frog_leg_brew",
+      "froglegs:temperate_frog_leg_stew_craft",
+      "froglegs:golden_temperate_frog_leg_craft"
+    ]
+  }
+}

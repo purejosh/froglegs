@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "froglegs:block/verdant_froglight_bricks",
+    "top": "froglegs:block/verdant_froglight_bricks",
+    "side": "froglegs:block/verdant_froglight_bricks"
+  },
+  "render_type": "solid"
+}

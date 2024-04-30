@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "froglegs:ochre_froglight_bricks"
+    },
+    "3": {
+      "item": "froglegs:ochre_froglight_bricks"
+    },
+    "4": {
+      "item": "froglegs:ochre_froglight_bricks"
+    },
+    "6": {
+      "item": "froglegs:ochre_froglight_bricks"
+    },
+    "7": {
+      "item": "froglegs:ochre_froglight_bricks"
+    },
+    "8": {
+      "item": "froglegs:ochre_froglight_bricks"
+    }
+  },
+  "result": {
+    "item": "froglegs:ochre_froglight_brick_stairs",
+    "count": 4
+  }
+}

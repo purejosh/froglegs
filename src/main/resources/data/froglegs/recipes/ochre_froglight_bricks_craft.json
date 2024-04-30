@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:ochre_froglight"
+    },
+    "1": {
+      "item": "minecraft:ochre_froglight"
+    },
+    "2": {
+      "item": "minecraft:ochre_froglight"
+    },
+    "3": {
+      "item": "minecraft:ochre_froglight"
+    }
+  },
+  "result": {
+    "item": "froglegs:ochre_froglight_bricks",
+    "count": 4
+  }
+}

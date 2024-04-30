@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "froglegs:smooth_verdant_froglight"
+    },
+    "1": {
+      "item": "froglegs:smooth_verdant_froglight"
+    },
+    "2": {
+      "item": "froglegs:smooth_verdant_froglight"
+    }
+  },
+  "result": {
+    "item": "froglegs:smooth_verdant_froglight_slab",
+    "count": 6
+  }
+}

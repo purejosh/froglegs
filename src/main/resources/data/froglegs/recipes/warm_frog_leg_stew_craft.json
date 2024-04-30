@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:baked_potato"
+    },
+    {
+      "item": "froglegs:cooked_warm_frog_leg"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "tag": "minecraft:mushrooms"
+    }
+  ],
+  "result": {
+    "item": "froglegs:warm_frog_leg_stew",
+    "count": 1
+  }
+}

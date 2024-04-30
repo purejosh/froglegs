@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "froglegs:block/ochre_froglight_brick_slab"
+    },
+    "type=top": {
+      "model": "froglegs:block/ochre_froglight_brick_slab_top"
+    },
+    "type=double": {
+      "model": "froglegs:block/ochre_froglight_brick_slab_full"
+    }
+  }
+}

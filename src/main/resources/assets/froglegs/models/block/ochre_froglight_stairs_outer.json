@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "froglegs:block/ochre_froglight",
+    "top": "froglegs:block/ochre_froglight",
+    "side": "froglegs:block/ochre_froglight"
+  },
+  "render_type": "solid"
+}

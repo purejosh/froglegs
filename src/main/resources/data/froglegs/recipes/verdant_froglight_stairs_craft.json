@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:verdant_froglight"
+    },
+    "3": {
+      "item": "minecraft:verdant_froglight"
+    },
+    "4": {
+      "item": "minecraft:verdant_froglight"
+    },
+    "6": {
+      "item": "minecraft:verdant_froglight"
+    },
+    "7": {
+      "item": "minecraft:verdant_froglight"
+    },
+    "8": {
+      "item": "minecraft:verdant_froglight"
+    }
+  },
+  "result": {
+    "item": "froglegs:verdant_froglight_stairs",
+    "count": 4
+  }
+}

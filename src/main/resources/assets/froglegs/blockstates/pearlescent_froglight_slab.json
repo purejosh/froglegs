@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "froglegs:block/pearlescent_froglight_slab"
+    },
+    "type=top": {
+      "model": "froglegs:block/pearlescent_froglight_slab_top"
+    },
+    "type=double": {
+      "model": "froglegs:block/pearlescent_froglight_slab_full"
+    }
+  }
+}

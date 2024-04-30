@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pearlescent_froglight"
+    },
+    "3": {
+      "item": "minecraft:pearlescent_froglight"
+    },
+    "4": {
+      "item": "minecraft:pearlescent_froglight"
+    },
+    "6": {
+      "item": "minecraft:pearlescent_froglight"
+    },
+    "7": {
+      "item": "minecraft:pearlescent_froglight"
+    },
+    "8": {
+      "item": "minecraft:pearlescent_froglight"
+    }
+  },
+  "result": {
+    "item": "froglegs:pearlescent_froglight_stairs",
+    "count": 4
+  }
+}

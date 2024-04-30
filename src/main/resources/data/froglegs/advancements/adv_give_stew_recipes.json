@@ -1,0 +1,40 @@
+{
+  "criteria": {
+    "adv_give_stew_recipes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bowl"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "froglegs:cold_frog_leg_smelt",
+      "froglegs:cold_frog_leg_smoke",
+      "froglegs:cold_frog_leg_campfire",
+      "froglegs:temperate_frog_leg_smelt",
+      "froglegs:temperate_frog_leg_smoke",
+      "froglegs:temperate_frog_leg_campfire",
+      "froglegs:warm_frog_leg_smelt",
+      "froglegs:warm_frog_leg_smoke",
+      "froglegs:warm_frog_leg_campfire",
+      "froglegs:cold_frog_leg_brew",
+      "froglegs:temperate_frog_leg_brew",
+      "froglegs:warm_frog_leg_brew",
+      "froglegs:cold_frog_leg_stew_craft",
+      "froglegs:temperate_frog_leg_stew_craft",
+      "froglegs:warm_frog_leg_stew_craft"
+    ]
+  }
+}

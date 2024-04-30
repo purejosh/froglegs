@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "froglegs:items/frogleg"
+    "layer0": "froglegs:item/frog_leg"
   }
 }

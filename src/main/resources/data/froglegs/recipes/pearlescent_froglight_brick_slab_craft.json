@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "froglegs:pearlescent_froglight_bricks"
+    },
+    "1": {
+      "item": "froglegs:pearlescent_froglight_bricks"
+    },
+    "2": {
+      "item": "froglegs:pearlescent_froglight_bricks"
+    }
+  },
+  "result": {
+    "item": "froglegs:pearlescent_froglight_brick_slab",
+    "count": 6
+  }
+}

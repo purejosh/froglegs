@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "froglegs:block/pearlescent_froglight_bricks",
+    "top": "froglegs:block/pearlescent_froglight_bricks",
+    "side": "froglegs:block/pearlescent_froglight_bricks"
+  },
+  "render_type": "solid"
+}

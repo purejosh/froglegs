@@ -18,6 +18,7 @@ import org.apache.logging.log4j.LogManager;
 import net.purejosh.froglegs.init.FroglegsModProcedures;
 import net.purejosh.froglegs.init.FroglegsModItems;
 import net.purejosh.froglegs.init.FroglegsModBrewingRecipes;
+import net.purejosh.froglegs.init.FroglegsModBlocks;
 
 import net.fabricmc.api.ModInitializer;
 
@@ -29,6 +30,7 @@ public class FroglegsMod implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Initializing FroglegsMod");
 
+		FroglegsModBlocks.load();
 		FroglegsModItems.load();
 
 		FroglegsModProcedures.load();

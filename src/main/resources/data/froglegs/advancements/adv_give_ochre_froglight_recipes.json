@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "adv_give_ochre_froglight_recipes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ochre_froglight"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "froglegs:ochre_froglight_slab_craft",
+      "froglegs:ochre_froglight_brick_slab_craft",
+      "froglegs:ochre_froglight_brick_stairs_craft",
+      "froglegs:ochre_froglight_bricks_craft",
+      "froglegs:ochre_froglight_rod_craft",
+      "froglegs:ochre_froglight_stairs_craft",
+      "froglegs:smooth_ochre_froglight_slab_craft",
+      "froglegs:smooth_ochre_froglight_smelt"
+    ]
+  }
+}

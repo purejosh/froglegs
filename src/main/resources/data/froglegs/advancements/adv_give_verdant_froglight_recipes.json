@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "adv_give_verdant_froglight_recipes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:verdant_froglight"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "froglegs:smooth_verdant_froglight_smelt",
+      "froglegs:smooth_verdant_froglight_slab_craft",
+      "froglegs:verdant_froglight_brick_slab_craft",
+      "froglegs:verdant_froglight_brick_stairs_craft",
+      "froglegs:verdant_froglight_bricks_craft",
+      "froglegs:verdant_froglight_rod_craft",
+      "froglegs:verdant_froglight_slab_craft",
+      "froglegs:verdant_froglight_stairs_craft"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "froglegs:block/verdant_froglight",
+    "top": "froglegs:block/verdant_froglight",
+    "side": "froglegs:block/verdant_froglight"
+  },
+  "render_type": "solid"
+}

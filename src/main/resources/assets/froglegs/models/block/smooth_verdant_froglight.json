@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "froglegs:block/smooth_verdant_froglight",
+    "up": "froglegs:block/smooth_verdant_froglight",
+    "north": "froglegs:block/smooth_verdant_froglight",
+    "east": "froglegs:block/smooth_verdant_froglight",
+    "south": "froglegs:block/smooth_verdant_froglight",
+    "west": "froglegs:block/smooth_verdant_froglight",
+    "particle": "froglegs:block/smooth_verdant_froglight"
+  },
+  "render_type": "solid"
+}

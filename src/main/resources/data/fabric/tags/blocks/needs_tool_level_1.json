@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "froglegs:ochre_froglight_stairs",
+    "froglegs:ochre_froglight_slab",
+    "froglegs:ochre_froglight_bricks",
+    "froglegs:ochre_froglight_brick_stairs",
+    "froglegs:ochre_froglight_brick_slab",
+    "froglegs:smooth_ochre_froglight",
+    "froglegs:smooth_ochre_froglight_slab",
+    "froglegs:verdant_froglight_stairs",
+    "froglegs:verdant_froglight_slab",
+    "froglegs:verdant_froglight_bricks",
+    "froglegs:verdant_froglight_brick_stairs",
+    "froglegs:verdant_froglight_brick_slab",
+    "froglegs:smooth_verdant_froglight",
+    "froglegs:smooth_verdant_froglight_slab",
+    "froglegs:pearlescent_froglight_stairs",
+    "froglegs:pearlescent_froglight_slab",
+    "froglegs:pearlescent_froglight_bricks",
+    "froglegs:pearlescent_froglight_brick_stairs",
+    "froglegs:pearlescent_froglight_brick_slab",
+    "froglegs:smooth_pearlescent_froglight",
+    "froglegs:smooth_pearlescent_froglight_slab",
+    "froglegs:ochre_froglight_rod",
+    "froglegs:verdant_froglight_rod",
+    "froglegs:pearlescent_froglight_rod"
+  ]
+}
