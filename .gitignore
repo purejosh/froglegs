@@ -1,3 +1,16 @@
 # Project exclude paths
 /.gradle/
 /build/
+/.idea/.gitignore
+/.idea/compiler.xml
+/.idea/discord.xml
+/.idea/modules/froglegs.main.iml
+/.idea/modules/froglegs.test.iml
+/.idea/gradle.xml
+/.idea/jarRepositories.xml
+/.idea/material_theme_project_new.xml
+/.idea/runConfigurations/Minecraft_Client.xml
+/.idea/runConfigurations/Minecraft_Server.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
