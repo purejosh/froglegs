@@ -1,0 +1,29 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_pearlescent_froglight": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:pearlescent_froglight"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_pearlescent_froglight"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"froglegs:pearlescent_froglight_stairs",
+			"froglegs:pearlescent_froglight_slab",
+			"froglegs:pearlescent_froglight_bricks",
+			"froglegs:pearlescent_froglight_rod",
+			"froglegs:smooth_pearlescent_froglight"
+		]
+	}
+}

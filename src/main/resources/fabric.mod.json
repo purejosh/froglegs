@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "froglegs",
+	"version": "3.0.0",
+	"name": "Frog Legs",
+	"description": "A simple mod that adds a protein drop from each frog variant, including additional food recipes and froglight block variants.",
+	"authors": [
+		"purejosh"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/froglegs",
+		"sources": "https://github.com/purejosh/froglegs",
+		"issues": "https://github.com/purejosh/froglegs/issues"
+	},
+	"license": "MIT-R-NR",
+	"icon": "assets/froglegs/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.purejosh.froglegs.FrogLegs"
+		]
+	},
+	"mixins": [
+		"froglegs.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

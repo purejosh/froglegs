@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "froglegs:block/ochre_froglight_bricks",
+    "top": "froglegs:block/ochre_froglight_bricks",
+    "side": "froglegs:block/ochre_froglight_bricks"
+  },
+  "render_type": "solid"
+}

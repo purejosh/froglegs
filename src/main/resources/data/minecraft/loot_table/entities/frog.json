@@ -1,0 +1,231 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "froglegs:warm_frog_leg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1,
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:furnace_smelt",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:any_of",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:entity_properties",
+                                            "entity": "this",
+                                            "predicate": {
+                                                "flags": {
+                                                    "is_on_fire": true
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:entity_properties",
+                                            "entity": "direct_attacker",
+                                            "predicate": {
+                                                "equipment": {
+                                                    "mainhand": {
+                                                        "predicates": {
+                                                            "minecraft:enchantments": [
+                                                                {
+                                                                    "enchantments": "#minecraft:smelts_loot"
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 0,
+                                "max": 1
+                            },
+                            "limit": 2
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type_specific": {
+                            "type": "minecraft:frog",
+                            "variant": "minecraft:warm"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "froglegs:temperate_frog_leg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1,
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:furnace_smelt",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:any_of",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:entity_properties",
+                                            "entity": "this",
+                                            "predicate": {
+                                                "flags": {
+                                                    "is_on_fire": true
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:entity_properties",
+                                            "entity": "direct_attacker",
+                                            "predicate": {
+                                                "equipment": {
+                                                    "mainhand": {
+                                                        "predicates": {
+                                                            "minecraft:enchantments": [
+                                                                {
+                                                                    "enchantments": "#minecraft:smelts_loot"
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 0,
+                                "max": 1
+                            },
+                            "limit": 2
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type_specific": {
+                            "type": "minecraft:frog",
+                            "variant": "minecraft:temperate"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "froglegs:cold_frog_leg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1,
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:furnace_smelt",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:any_of",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:entity_properties",
+                                            "entity": "this",
+                                            "predicate": {
+                                                "flags": {
+                                                    "is_on_fire": true
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:entity_properties",
+                                            "entity": "direct_attacker",
+                                            "predicate": {
+                                                "equipment": {
+                                                    "mainhand": {
+                                                        "predicates": {
+                                                            "minecraft:enchantments": [
+                                                                {
+                                                                    "enchantments": "#minecraft:smelts_loot"
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:enchanted_count_increase",
+                            "enchantment": "minecraft:looting",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 0,
+                                "max": 1
+                            },
+                            "limit": 2
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type_specific": {
+                            "type": "minecraft:frog",
+                            "variant": "minecraft:cold"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "random_sequence": "minecraft:entities/frog"
+}

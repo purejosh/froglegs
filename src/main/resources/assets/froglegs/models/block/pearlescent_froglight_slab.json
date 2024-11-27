@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "froglegs:block/pearlescent_froglight",
+    "top": "froglegs:block/pearlescent_froglight",
+    "side": "froglegs:block/pearlescent_froglight"
+  },
+  "render_type": "solid"
+}

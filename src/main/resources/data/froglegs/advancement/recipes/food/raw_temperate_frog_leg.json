@@ -1,0 +1,29 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_temperate_frog_leg": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "froglegs:temperate_frog_leg"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_temperate_frog_leg"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"froglegs:cooked_temperate_frog_leg",
+			"froglegs:cooked_temperate_frog_leg_from_campfire_cooking",
+			"froglegs:cooked_temperate_frog_leg_from_smoking",
+			"froglegs:golden_temperate_frog_leg",
+			"froglegs:temperate_frog_leg_stew"
+		]
+	}
+}

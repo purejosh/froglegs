@@ -1,0 +1,26 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_smooth_ochre_froglight": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "froglegs:smooth_ochre_froglight"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_smooth_ochre_froglight"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"froglegs:smooth_ochre_froglight_stairs",
+			"froglegs:smooth_ochre_froglight_slab"
+		]
+	}
+}

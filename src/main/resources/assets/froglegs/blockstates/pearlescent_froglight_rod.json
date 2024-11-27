@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "froglegs:block/pearlescent_froglight_rod",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "froglegs:block/pearlescent_froglight_rod",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "froglegs:block/pearlescent_froglight_rod",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "froglegs:block/pearlescent_froglight_rod",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "froglegs:block/pearlescent_froglight_rod"
+    },
+    "facing=west": {
+      "model": "froglegs:block/pearlescent_froglight_rod",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

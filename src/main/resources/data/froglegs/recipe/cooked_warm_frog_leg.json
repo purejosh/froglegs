@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "froglegs:warm_frog_leg"
+  },
+  "result": {
+    "id": "froglegs:cooked_warm_frog_leg"
+  }
+}

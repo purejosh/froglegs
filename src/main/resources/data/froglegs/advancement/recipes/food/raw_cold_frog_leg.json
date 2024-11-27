@@ -1,0 +1,29 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_cold_frog_leg": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "froglegs:cold_frog_leg"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_cold_frog_leg"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"froglegs:cooked_cold_frog_leg",
+			"froglegs:cooked_cold_frog_leg_from_campfire_cooking",
+			"froglegs:cooked_cold_frog_leg_from_smoking",
+			"froglegs:golden_cold_frog_leg",
+			"froglegs:cold_frog_leg_stew"
+		]
+	}
+}

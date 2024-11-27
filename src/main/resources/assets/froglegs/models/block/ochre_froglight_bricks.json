@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "froglegs:block/ochre_froglight_bricks",
+    "up": "froglegs:block/ochre_froglight_bricks",
+    "north": "froglegs:block/ochre_froglight_bricks",
+    "east": "froglegs:block/ochre_froglight_bricks",
+    "south": "froglegs:block/ochre_froglight_bricks",
+    "west": "froglegs:block/ochre_froglight_bricks",
+    "particle": "froglegs:block/ochre_froglight_bricks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,29 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_verdant_froglight": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:verdant_froglight"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_verdant_froglight"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"froglegs:verdant_froglight_stairs",
+			"froglegs:verdant_froglight_slab",
+			"froglegs:verdant_froglight_bricks",
+			"froglegs:verdant_froglight_rod",
+			"froglegs:smooth_verdant_froglight"
+		]
+	}
+}

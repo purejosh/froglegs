@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "froglegs:block/smooth_ochre_froglight",
+    "top": "froglegs:block/smooth_ochre_froglight",
+    "side": "froglegs:block/smooth_ochre_froglight"
+  },
+  "render_type": "solid"
+}

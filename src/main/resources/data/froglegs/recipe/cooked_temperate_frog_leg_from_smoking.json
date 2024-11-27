@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "froglegs:temperate_frog_leg"
+  },
+  "result": {
+    "id": "froglegs:cooked_temperate_frog_leg"
+  }
+}

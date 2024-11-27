@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:verdant_froglight"
+    },
+    "/": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "pattern": [
+    "/",
+    "#"
+  ],
+  "result": {
+    "count": 4,
+    "id": "froglegs:verdant_froglight_rod"
+  }
+}
